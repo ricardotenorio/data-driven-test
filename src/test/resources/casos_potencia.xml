@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<procedimentos>
+    <procedimento descricao="casos de teste de potência de dois números">
+        <caso numero="0" descricao="número elevado a 1">
+            <numero1>10</numero1>
+            <numero2>1</numero2>
+            <resultado>10</resultado>
+        </caso>
+
+        <caso numero="1" descricao="0 elevado a um número positivo">
+            <numero1>0</numero1>
+            <numero2>5</numero2>
+            <resultado>0</resultado>
+        </caso>
+
+        <caso numero="2" descricao="número elevado à 0">
+            <numero1>10</numero1>
+            <numero2>0</numero2>
+            <resultado>1</resultado>
+        </caso>
+
+        <caso numero="3" descricao="número elevado a um número negativo">
+            <numero1>10</numero1>
+            <numero2>-2</numero2>
+            <resultado>0,01</resultado>
+        </caso>
+
+        <caso numero="4" descricao="número elevado a uma potência maior que 1">
+            <numero1>2</numero1>
+            <numero2>5</numero2>
+            <resultado>32</resultado>
+        </caso>
+
+    </procedimento>
+</procedimentos>

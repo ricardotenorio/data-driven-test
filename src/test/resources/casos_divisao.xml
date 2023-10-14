@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<procedimentos>
+    <procedimento descricao="casos de teste de divisão de dois números">
+        <caso numero="0" descricao="número dividido por 1">
+            <numero1>2</numero1>
+            <numero2>1</numero2>
+            <resultado>2</resultado>
+        </caso>
+
+        <caso numero="1" descricao="0 dividido por um número">
+            <numero1>0</numero1>
+            <numero2>2</numero2>
+            <resultado>0</resultado>
+        </caso>
+
+        <caso numero="2" descricao="número dividido por 0">
+            <numero1>10</numero1>
+            <numero2>0</numero2>
+            <resultado>Infinity</resultado>
+        </caso>
+
+        <caso numero="3" descricao="número dividido por um número negativo">
+            <numero1>5</numero1>
+            <numero2>-2</numero2>
+            <resultado>-2,5</resultado>
+        </caso>
+
+        <caso numero="4" descricao="número negativo dividido por um número negativo">
+            <numero1>-10</numero1>
+            <numero2>-5</numero2>
+            <resultado>2</resultado>
+        </caso>
+
+    </procedimento>
+</procedimentos>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<procedimentos>
+    <procedimento descricao="casos de teste de fatorial de um número">
+        <caso numero="0" descricao="fatorial de 1">
+            <numero>1</numero>
+            <resultado>1</resultado>
+        </caso>
+
+        <caso numero="1" descricao="fatorial de um número negativo">
+            <numero>-10</numero>
+            <resultado>NaN</resultado>
+        </caso>
+
+        <caso numero="2" descricao="fatorial de de 0">
+            <numero>0</numero>
+            <resultado>1</resultado>
+        </caso>
+
+        <caso numero="3" descricao="fatorial de um número positivo maior que 2">
+            <numero>5</numero>
+            <resultado>120</resultado>
+        </caso>
+
+        <caso numero="4" descricao="fatorial de 100">
+            <numero>100</numero>
+            <resultado>9,33262154439441e+157</resultado>
+        </caso>
+
+    </procedimento>
+</procedimentos>

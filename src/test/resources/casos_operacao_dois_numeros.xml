@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<procedimentos>
+
+    <procedimento descricao="casos de teste de divisão de dois números">
+        <caso numero="0" descricao="número dividido por 1">
+            <numero1>2</numero1>
+            <numero2>1</numero2>
+            <operacao>/</operacao>
+            <resultado>2</resultado>
+        </caso>
+
+        <caso numero="1" descricao="0 dividido por um número">
+            <numero1>0</numero1>
+            <numero2>2</numero2>
+            <operacao>/</operacao>
+            <resultado>0</resultado>
+        </caso>
+
+        <caso numero="2" descricao="número dividido por 0">
+            <numero1>10</numero1>
+            <numero2>0</numero2>
+            <operacao>/</operacao>
+            <resultado>Infinity</resultado>
+        </caso>
+
+        <caso numero="3" descricao="número dividido por um número negativo">
+            <numero1>5</numero1>
+            <numero2>-2</numero2>
+            <operacao>/</operacao>
+            <resultado>-2,5</resultado>
+        </caso>
+
+        <caso numero="4" descricao="número negativo dividido por um número negativo">
+            <numero1>-10</numero1>
+            <numero2>-5</numero2>
+            <operacao>/</operacao>
+            <resultado>2</resultado>
+        </caso>
+
+    </procedimento>
+
+    <procedimento descricao="casos de teste de potência de dois números">
+        <caso numero="0" descricao="número elevado a 1">
+            <numero1>10</numero1>
+            <numero2>1</numero2>
+            <operacao>^</operacao>
+            <resultado>10</resultado>
+        </caso>
+
+        <caso numero="1" descricao="0 elevado a um número positivo">
+            <numero1>0</numero1>
+            <numero2>5</numero2>
+            <operacao>^</operacao>
+            <resultado>0</resultado>
+        </caso>
+
+        <caso numero="2" descricao="número elevado à 0">
+            <numero1>10</numero1>
+            <numero2>0</numero2>
+            <operacao>^</operacao>
+            <resultado>1</resultado>
+        </caso>
+
+        <caso numero="3" descricao="número elevado a um número negativo">
+            <numero1>10</numero1>
+            <numero2>-2</numero2>
+            <operacao>^</operacao>
+            <resultado>0,01</resultado>
+        </caso>
+
+        <caso numero="4" descricao="número elevado a uma potência maior que 1">
+            <numero1>2</numero1>
+            <numero2>5</numero2>
+            <operacao>^</operacao>
+            <resultado>32</resultado>
+        </caso>
+    </procedimento>
+
+    <procedimento descricao="casos de teste de resto da divisão dois números inteiros">
+        <caso numero="0" descricao="resto de divisão exata">
+            <numero1>10</numero1>
+            <numero2>2</numero2>
+            <operacao>rest</operacao>
+            <resultado>0</resultado>
+        </caso>
+
+        <caso numero="1" descricao="resto da divisão por 0">
+            <numero1>8</numero1>
+            <numero2>0</numero2>
+            <operacao>rest</operacao>
+            <resultado>NaN</resultado>
+        </caso>
+
+        <caso numero="2" descricao="resto da divisão de um número negativo por um positivo">
+            <numero1>-10</numero1>
+            <numero2>3</numero2>
+            <operacao>rest</operacao>
+            <resultado>-1</resultado>
+        </caso>
+
+        <caso numero="3" descricao="resto da divisão de um número positivo por um negativo">
+            <numero1>5</numero1>
+            <numero2>-2</numero2>
+            <operacao>rest</operacao>
+            <resultado>1</resultado>
+        </caso>
+
+        <caso numero="4" descricao="resto da divisão de dois números negativos">
+            <numero1>-11</numero1>
+            <numero2>-5</numero2>
+            <operacao>rest</operacao>
+            <resultado>-1</resultado>
+        </caso>
+    </procedimento>
+
+    <procedimento descricao="casos de teste de subtração de dois números">
+        <caso numero="0" descricao="subtração de dois números positivos">
+            <numero1>10</numero1>
+            <numero2>2</numero2>
+            <operacao>-</operacao>
+            <resultado>8</resultado>
+        </caso>
+
+        <caso numero="1" descricao="subtração de um número positivo e 0">
+            <numero1>8</numero1>
+            <numero2>0</numero2>
+            <operacao>-</operacao>
+            <resultado>8</resultado>
+        </caso>
+
+        <caso numero="2" descricao="subtração de um número negativo e um positivo">
+            <numero1>-10</numero1>
+            <numero2>3</numero2>
+            <operacao>-</operacao>
+            <resultado>-13</resultado>
+        </caso>
+
+        <caso numero="3" descricao="subtração de um número positivo e um negativo">
+            <numero1>5</numero1>
+            <numero2>(-2)</numero2>
+            <operacao>-</operacao>
+            <resultado>7</resultado>
+        </caso>
+
+        <caso numero="4" descricao="subtração de dois números negativos">
+            <numero1>-11</numero1>
+            <numero2>(-5)</numero2>
+            <operacao>-</operacao>
+            <resultado>-6</resultado>
+        </caso>
+    </procedimento>
+
+    <procedimento descricao="casos de teste de soma de dois números">
+        <caso numero="0" descricao="soma de dois números positivos">
+            <numero1>10</numero1>
+            <numero2>2</numero2>
+            <operacao>+</operacao>
+            <resultado>12</resultado>
+        </caso>
+
+        <caso numero="1" descricao="soma de um número positivo e 0">
+            <numero1>8</numero1>
+            <numero2>0</numero2>
+            <operacao>+</operacao>
+            <resultado>8</resultado>
+        </caso>
+
+        <caso numero="2" descricao="soma de um número negativo e um positivo">
+            <numero1>-10</numero1>
+            <numero2>3</numero2>
+            <operacao>+</operacao>
+            <resultado>-7</resultado>
+        </caso>
+
+        <caso numero="3" descricao="soma de um número positivo e um negativo">
+            <numero1>5</numero1>
+            <numero2>(-2)</numero2>
+            <operacao>+</operacao>
+            <resultado>3</resultado>
+        </caso>
+
+        <caso numero="4" descricao="soma de dois números negativos">
+            <numero1>-11</numero1>
+            <numero2>(-5)</numero2>
+            <operacao>+</operacao>
+            <resultado>-16</resultado>
+        </caso>
+    </procedimento>
+
+</procedimentos>

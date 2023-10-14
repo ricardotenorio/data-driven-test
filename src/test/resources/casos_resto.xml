@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<procedimentos>
+    <procedimento descricao="casos de teste de resto da divisão dois números inteiros">
+        <caso numero="0" descricao="resto de divisão exata">
+            <numero1>10</numero1>
+            <numero2>2</numero2>
+            <resultado>0</resultado>
+        </caso>
+
+        <caso numero="1" descricao="resto da divisão por 0">
+            <numero1>8</numero1>
+            <numero2>0</numero2>
+            <resultado>NaN</resultado>
+        </caso>
+
+        <caso numero="2" descricao="resto da divisão de um número negativo por um positivo">
+            <numero1>-10</numero1>
+            <numero2>3</numero2>
+            <resultado>-1</resultado>
+        </caso>
+
+        <caso numero="3" descricao="resto da divisão de um número positivo por um negativo">
+            <numero1>5</numero1>
+            <numero2>-2</numero2>
+            <resultado>1</resultado>
+        </caso>
+
+        <caso numero="4" descricao="resto da divisão de dois números negativos">
+            <numero1>-11</numero1>
+            <numero2>-5</numero2>
+            <resultado>-1</resultado>
+        </caso>
+
+    </procedimento>
+</procedimentos>

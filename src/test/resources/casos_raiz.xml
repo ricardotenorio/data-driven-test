@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<procedimentos>
+    <procedimento descricao="casos de teste de raiz quadrada de um número">
+        <caso numero="0" descricao="raiz de um número positivo">
+            <numero>2</numero>
+            <resultado>1,414</resultado>
+        </caso>
+
+        <caso numero="1" descricao="raiz de um número negativo">
+            <numero>-2</numero>
+            <resultado>NaN</resultado>
+        </caso>
+
+        <caso numero="2" descricao="raiz de 0">
+            <numero>0</numero>
+            <resultado>0</resultado>
+        </caso>
+
+        <caso numero="3" descricao="raiz de 1">
+            <numero>1</numero>
+            <resultado>1</resultado>
+        </caso>
+
+        <caso numero="4" descricao="raiz de 9">
+            <numero>9</numero>
+            <resultado>3</resultado>
+        </caso>
+
+    </procedimento>
+</procedimentos>
